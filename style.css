@@ -1,0 +1,221 @@
+body{
+    width: 99%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: rgb(228, 237, 250);   */
+    background-color: white;
+}
+
+*{
+    text-decoration: none;
+}
+
+#header{
+    color: white;
+    /* background-color: #4267b2; */
+    background-color: blue;
+    height: 15vh;
+}
+
+@media (max-width: 800px){
+    #header{
+        background-color: rgb(252, 162, 177);
+        height: 30vh;
+    }
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 5px; */
+    color: white;
+
+}
+
+input:focus{
+    border: none;
+}
+
+.logo{
+    margin-top: -15px;
+    width: 50px;
+    font-size: 1.8em;
+}
+
+.login{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-right: 5px;
+}
+@media (max-width: 800px){
+    .login{
+        flex-direction: column;
+    }
+}
+.login .input1{
+    line-height: 1.5em;
+    margin-right: 10px;
+}
+.login .input2{
+    line-height: 1.5em;
+    margin-right: 10px;
+}
+.login a{
+    color: white;
+}
+.btn{
+    color: white;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 45px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    /* background-color: #5980ce ; */
+    background-color: lightblue;
+}
+.header h1{
+    width: 260px;
+    margin-left: 25px;
+}
+
+.header .login{
+    margin-top: 5px;
+}
+
+.page-info-items{
+    margin-left: 20px;
+}
+
+.page-title{
+    width: 70%;
+}
+
+.item1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.item1>h4{
+    margin-left: 10px;
+}
+
+.item2>h4{
+    margin-left: 10px;
+}
+
+.item3>h4{
+    margin-left: 10px;
+}
+
+.item2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.item3{
+    display: flex;
+    flex-direction: row;
+}
+
+.page-info{
+    position: relative;
+    float: left;
+    width: 60%;
+}
+
+
+.page-title{
+    font-size: x-large;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+@media (max-width: 800px){
+    .page-info{
+        width: 98%;
+    }
+}
+
+span{
+    color: rgb(134, 134, 134);
+}
+
+img{
+    width: 60px;
+    height: 60px;
+}
+
+.signup{
+    width: 40%;
+    position: relative;
+    float: right;
+}
+
+.sign-up{
+    padding: 10px;
+}
+
+input.name{
+    border-radius: 5px;
+    border: 2px solid lightblue;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 42%;
+}
+
+input.number{
+    border-radius: 5px;
+    border: 2px solid lightblue;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 92%;
+}
+
+input.password{
+    border-radius: 5px;
+    border: 2px solid lightblue;
+    padding: 10px;
+    width: 92%;
+}
+
+input.date{
+    border-radius: 5px;
+    border: 2px solid lightblue;
+    padding: 8px;
+    width: 20%;
+}
+
+
+.title>h1{
+    font-size: xx-large;
+}
+
+.title>p{
+    color: rgb(80, 79, 79);
+    margin-top: -20px;
+    font-size: x-large;
+}
+
+
+.signup-btn{
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    width: 170px;
+    height: 35px;
+    background-color: rgb(2, 99, 2);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 800px){
+    .signup{
+        width: 98%;
+    }
+}
